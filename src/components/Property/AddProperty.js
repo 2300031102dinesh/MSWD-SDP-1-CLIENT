@@ -29,7 +29,7 @@ const AddProperty = ({ onPropertyAdded }) => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/properties/upload",
+        "https://mswd-sdp-1-server.onrender.com/api/properties/upload",
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },
