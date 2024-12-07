@@ -30,7 +30,7 @@ const PropertyList = ({ properties }) => {
             </p>
 
             <img
-              src={`http://localhost:5000${property.imageUrl}`}
+              src={`https://mswd-sdp-1-server.onrender.com${property.imageUrl}`}
               alt={`Image of ${property.title}`}
               style={{
                 width: "100%",
