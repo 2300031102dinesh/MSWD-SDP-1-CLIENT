@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an Axios instance with default settings
 const axiosInstance = axios.create({
-    baseURL: process.env.REACT_APP_API_BASE_URL || 'http://localhost:5000/api', // Replace with your backend URL
+    baseURL: process.env.REACT_APP_API_BASE_URL || 'https://mswd-sdp-1-server.onrender.com/api', // Replace with your backend URL
     headers: {
         'Content-Type': 'application/json',
     },
