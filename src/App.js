@@ -31,7 +31,7 @@ const App = () => {
     const fetchProperties = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/properties"
+          "https://mswd-sdp-1-server.onrender.com/api/properties"
         );
         setProperties(response.data); // Set the properties state with fetched data
       } catch (error) {
