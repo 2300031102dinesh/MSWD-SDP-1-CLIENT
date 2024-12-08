@@ -8,7 +8,7 @@ const TenantList = ({ properties }) => {
         {properties.map((property) => (
           <div key={property.id} style={styles.propertyCard}>
             <img
-              src={`http://localhost:5000${property.imageUrl}`}
+              src={`https://mswd-sdp-1-server.onrender.com${property.imageUrl}`}
               alt={property.title}
               style={{
                 width: "100%",
